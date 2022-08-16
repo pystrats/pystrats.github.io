@@ -1,3 +1,47 @@
+
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Great Vibes'), local('GreatVibes-Regular'),
+        url('../fonts/greatvibes.woff') format('woff'),
+        url('../fonts/greatvibes.ttf') format('truetype');
+}
+
+.quote-wrapper {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.quote-wrapper .quote {
+  font-family: 'Great Vibes', arial;
+  font-size: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+
+}
+
+.quote-wrapper .quote img {
+  height: 250px;
+}
+
+.quote-reference {
+  position: relative;
+  color: gray;
+  top: 50%;
+  text-align: right;
+  margin-top: 300px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
 .vertical_separator {
   height: 0px;
 }
