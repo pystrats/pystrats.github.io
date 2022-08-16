@@ -36,6 +36,7 @@ window.onresize = function(e) {
             iframes[i].src = graphsource;
           }
       }
+
   }
 
   window.dispatchEvent(new Event('resize'));
